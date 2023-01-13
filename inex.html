@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #287368, #b2c56e);
+            width: 100%;
+            height: 100vh;
+            position: relative;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    spacing: {
+                        'box-w': '600px',
+                        'h-280': '280px',
+                    },
+                }
+            }
+        }
+    </script>
+    <script src="./index.js" defer></script>
+</head>
+
+<body>
+    <div class="w-box-w h-h-280 overflow-hidden absolute top-1/2 left-96 -translate-y-1/2 ">
+        <div id="fluid" class="inline-flex transition ease-in ">
+            <div class="w-box-w h-h-280">
+                <h1 class="text-7xl">Nodir Ikromov</h1>
+                <p class="text-base">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius cumque dolorem aliquid totam
+                    id fugit eos iusto laudantium rem magni, quidem odit, reiciendis porro. Officiis, adipisci
+                    nihil? Illum, alias voluptatem!
+                </p>
+                <a class="mt-6 text-base py-1 px-7 bg-slate-200 text-black rounded-2xl" href="#"> Read more </a>
+            </div>
+            <div class="w-box-w  h-h-280">
+                <h1 class="text-7xl">Html</h1>
+                <p class="text-base">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius cumque dolorem aliquid totam
+                    id fugit eos iusto laudantium rem magni, quidem odit, reiciendis porro. Officiis, adipisci
+                    nihil? Illum, alias voluptatem!
+                </p>
+                <a class=" mt-6 text-base py-1 px-7 bg-slate-200 text-black rounded-2xl" href="#"> Read more </a>
+            </div>
+            <div class="w-box-w h-h-280">
+                <h1 class="text-7xl">CSS</h1>
+                <p class="text-base">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius cumque dolorem aliquid totam
+                    id fugit eos iusto laudantium rem magni, quidem odit, reiciendis porro. Officiis, adipisci
+                    nihil? Illum, alias voluptatem!
+                </p>
+                <a class=" mt-6 text-base py-1 px-7 bg-slate-200 text-black rounded-2xl" href="#"> Read more </a>
+            </div>
+            <div class="w-box-w h-h-280">
+                <h1 class="text-7xl">JavaScript</h1>
+                <p class="text-base">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius cumque dolorem aliquid totam
+                    id fugit eos iusto laudantium rem magni, quidem odit, reiciendis porro. Officiis, adipisci
+                    nihil? Illum, alias voluptatem!
+                </p>
+                <a class=" mt-6  text-base py-1 px-7 bg-slate-200 text-black rounded-2xl" href="#"> Read more </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="w-80 h-0.5 bg-white absolute top-2/3 right-2/3 translate-x-1/2 flex  ">
+        <div class="w-20 h-6" id="child1"></div>
+        <div class="w-20 h-6" id="child2"></div>
+        <div class="w-20 h-6" id="child3"></div>
+        <div class="w-20 h-6" id="child4"></div>
+        <div class="w-20 h-3 absolute bg-slate-100 rounded-md -translate-y-1/2" id="active"></div>
+    </div>
+
+</body>
+
+</html>
